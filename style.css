@@ -176,12 +176,19 @@ p{
 article li{
 	font-style: italic;
 }
+.container_banniere{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 .container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 .block {
 	width: 50%;
 	display: table-row;
