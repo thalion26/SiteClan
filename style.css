@@ -10,17 +10,6 @@
 }
 
 @font-face{
-    font-family: 'BTTF';
-    src: url('fonts/BTTF.eot');
-    src: url('fonts/BTTF.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BTTF.woff') format('woff'),
-         url('fonts/BTTF.ttf') format('truetype'),
-         url('fonts/BTTF.svg#BTTF') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
     font-family: 'Xperia';
     src: url('fonts/Xperia.eot');
     src: url('fonts/Xperia.eot?#iefix') format('embedded-opentype'),
@@ -31,16 +20,6 @@
     font-style: normal;
 }
 
-@font-face{
-    font-family: 'pf_ronda_seven';
-    src: url('fonts/pf_ronda_seven.eot');
-    src: url('fonts/pf_ronda_seven.eot?#iefix') format('embedded-opentype'),
-         url('fonts/pf_ronda_seven.woff') format('woff'),
-         url('fonts/pf_ronda_seven.ttf') format('truetype'),
-         url('fonts/pf_ronda_seven.svg#pf_ronda_seven') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 @media screen and (max-width: 768px) {
     #navigation {
         width: auto;
@@ -49,7 +28,9 @@
     .dlc1 img, .dlc2 img{
     	width: 100%;
     }
-    
+    p {
+    	font-size: 90%;
+    }
     #navigation li {
         display: block;
         padding: 5px 5px 5px 5px;
@@ -66,6 +47,9 @@
         padding: 5px 15px 5px 15px;
         font-size: 1em;
 	}
+	p {
+    	font-size: 105%;
+    }
 }
 
 *{
@@ -112,7 +96,7 @@ body {
 	border-color: #E51000;
 	border-width: 2px;
 	border-radius: 15px;
-	font-family: arial,serif;
+	font-family: Arial,serif;
 	color: white;
 	background-color: #7F0900;
 	text-align: center;
@@ -131,14 +115,13 @@ body {
 	font-size: 25px;
 	width:100%;
 	text-align: center;
-	font-family: 'BTTF', 'sans-serif';
+	font-family: 'Xperia', 'sans-serif';
 }
 #clan, #membres, #contact, #liste, #trucs, #news {
 	float: left;
 	width: 100%;
 	position: relative;
 	padding-left: 5%;
-	font-family:'Lora', serif;
 }
 article h1, h3{
 	color: #4763FF;
@@ -147,7 +130,7 @@ article h1, h3{
 }
 li{
 	list-style-type:none;
-	font-family: 'pf_ronda_seven' , 'sans-serif' , serif;
+	font-family: Arial, serif;
 }
 
 #contact p{
@@ -166,7 +149,6 @@ a:hover {
 p{
 	line-height: 1em;
 	color: white;
-	font-size: 20px;
 	text-align: justify;
 }
 
@@ -174,7 +156,6 @@ p{
 	display: table-cell;
 	line-height: 1.5em;
 	padding: 0 1em;
-	font-size: 20px;
 }
 
 article li{
