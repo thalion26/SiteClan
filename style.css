@@ -76,7 +76,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-  background: url(images/destiny_fond_2.jpg);
+  background: url(images/destiny_fond_2_bis.jpg);
   background-size: cover;
   background-attachment:fixed;
   background-color: #2D2D2D;
@@ -162,7 +162,7 @@ a:hover {
 p{
 	line-height: 1em;
 	color: white;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: justify;
 }
 
@@ -170,7 +170,7 @@ p{
 	display: table-cell;
 	line-height: 1.5em;
 	padding: 0 1em;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 article li{
@@ -220,5 +220,5 @@ article li{
 	transition: all 1s;
 }
 .dlc1:hover p, .dlc2:hover p{
-	color: #8EFF42;
+	color: #f7c34b;
 }
