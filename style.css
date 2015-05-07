@@ -39,6 +39,10 @@
     #navigation li {
         display: block;
         font-size: 0.75em;
+    }
+    #retour {
+    	font-size: 0.75em;
+    }
 }
     #navigation a:hover {
         border-bottom: 0;
@@ -52,6 +56,9 @@
 	}
 	p {
     	font-size: 105%;
+    }
+    #retour {
+    	font-size: 1em;
     }
 }
 
@@ -101,14 +108,9 @@ a:last-of-type {
 #navigation li {
 	width: 100%;
 	list-style-type: none;
-	border-style: solid;
-	border-color: transparent;
-	border-width: 2px;
-	border-radius: 5px;
 	font-family: Arial,serif;
 	color: white;
 	background-color: none;
-	text-align: center;
 	padding: 10px;
 }
 #navigation li:hover {
@@ -127,7 +129,7 @@ a:last-of-type {
 	text-align: center;
 	font-family: 'Xperia', 'sans-serif';
 }
-#clan, #membres, #contact, #liste, #trucs, #news {
+#clan, #membres, #contact, #liste, #trucs, #news, #retour {
 	float: left;
 	width: 100%;
 	position: relative;
@@ -141,7 +143,7 @@ article h1, h3{
 
 li{
 	list-style-type:none;
-	font-family: Arial, serif;
+	font-family: Arial, sans-serif;
 }
 
 #contact p{
@@ -239,4 +241,15 @@ article li{
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinte;
     -webkit-animation-timing-function: linear;
+}
+#retour {
+	width: 100%;
+	font-family: Arial,serif;
+	color: white;
+	background-color: none;
+	padding: 10px;
+	text-align: right;
+}
+#retour:hover {
+	color: #FCFC29;
 }
