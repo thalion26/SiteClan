@@ -133,11 +133,17 @@ a:last-of-type {
 	float: left;
 	width: 100%;
 	position: relative;
-	padding-left: 5%;
+	padding: 0 5%;
 }
 article h1, h3{
 	color: #FCFC29;
 	font-size: 26px;
+	font-family: 'Xperia';
+}
+
+article h4{
+	color: #FCFC29;
+	font-size: 20px;
 	font-family: 'Xperia';
 }
 
